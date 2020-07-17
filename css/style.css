@@ -1,0 +1,44 @@
+:root {
+    --color-textdark: #000;
+    --color-textlight: #ccc;
+    --color-main: #009fa9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-textlight);
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main_container {
+    height: 80vh;
+    background-color: darkgrey;
+    margin: 0 5rem;
+    background-image: url(../img/icarus.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main_logo {
+    display: flex;
+    padding: 2rem 1rem;
+    width: 100px;
+}
+
+.main_logo img {
+    width: 100%;
+    height: auto;
+}
