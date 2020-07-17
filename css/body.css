@@ -1,0 +1,25 @@
+.main_section {
+    margin: 0 5rem;
+}
+
+.main_section h1,
+h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main_section .contenedor {
+    background-color: olivedrab;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.article_item {
+    margin: 10px 0;
+}
+
+.article_item img {
+    width: 300px;
+    height: 300px;
+}
