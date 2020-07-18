@@ -1,5 +1,6 @@
+@import url(roots.css);
 .main_section {
-    margin: 0 5rem;
+    margin: var(--margin-main);
 }
 
 .main_section h1,

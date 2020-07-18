@@ -1,10 +1,6 @@
+@import url(roots.css);
 @import url(body.css);
-:root {
-    --color-textdark: #000;
-    --color-textlight: #ccc;
-    --color-main: #009fa9;
-}
-
+@import url(foooter.css);
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +19,7 @@ body {
 .main_container {
     height: 80vh;
     background-color: darkgrey;
-    margin: 0 5rem;
+    margin: var(--margin-main);
     background-image: url(../img/icarus.jpg);
     background-position: center center;
     background-size: cover;

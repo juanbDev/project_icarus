@@ -1,0 +1,8 @@
+:root {
+    --color-textdark: #000;
+    --color-textlightdark: rgba(114, 120, 148, 0.205);
+    --color-textlight: rgb(223, 206, 206);
+    --color-main: #009fa9;
+    --color-blue: #344fff;
+    --margin-main: 0 5rem;
+}

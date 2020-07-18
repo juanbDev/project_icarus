@@ -1,0 +1,29 @@
+@import url(roots.css);
+.contenedor-footer {
+    display: flex;
+    margin: var(--margin-main);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: var(--margin-main);
+    padding: 20px;
+    background-color: var( --color-textlightdark);
+}
+
+.content-foot {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.content-foot>h3 {
+    color: var( --color-blue);
+    padding: 5px 3px;
+    margin: 0 0 8px 0;
+    border-bottom: 7px solid var(--color-main);
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
